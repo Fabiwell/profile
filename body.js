@@ -144,6 +144,19 @@ function loop(timeNow){
         ctx.drawImage(img1, w/3 + 10, h/100 + 10, 50, 50);
         var img2 = document.getElementById("linkedin");
         ctx.drawImage(img2, w/3 + 70, h/100 + 10, 50, 50);
+
+        ctx.fillText("Profile", w/3 + 10, h/100 + 80)
+        ctx.font = "15px Arial";
+        ctx.fillText("Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text", w/3 + 10, h/100 + 95, maxwidth = w/3 - 20)
+        ctx.fillText("Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text", w/3 + 10, h/100 + 110, maxwidth = w/3 - 20)
+        ctx.fillText("Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text", w/3 + 10, h/100 + 125, maxwidth = w/3 - 20)
+        ctx.fillText("Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text", w/3 + 10, h/100 + 140, maxwidth = w/3 - 20)
+        ctx.fillText("Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text", w/3 + 10, h/100 + 155, maxwidth = w/3 - 20)
+        ctx.fillText("Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text", w/3 + 10, h/100 + 170, maxwidth = w/3 - 20)
+        ctx.fillText("Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text", w/3 + 10, h/100 + 185, maxwidth = w/3 - 20)
+        ctx.fillText("Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text", w/3 + 10, h/100 + 200, maxwidth = w/3 - 20)
+        ctx.font = "20px Arial";
+
     }
     ctx.fillStyle = COLOR_BG;
 
